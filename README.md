@@ -1,6 +1,6 @@
 # ETL Project Description
 Use ETL Process on two CSV files that contain air pollution data from 8 cities between the years 2017 and 2020.
-Tools: PostgreSQL, PGAdmin, Jupyter Notebook, Python, Pandas.
+Tools: PostgreSQL, PGAdmin, Jupyter Notebook, Python, Pandas, SQL Server.
 ## Extract
 Loaded 2 csv files from the Resources folder using pd.read_csv.
 ## Transform
