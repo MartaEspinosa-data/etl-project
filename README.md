@@ -1,8 +1,8 @@
 # ETL Project Description
 Use ETL Process on two CSV files that contain air pollution data from 8 cities between the years 2017 and 2020.
 Tools: PostgreSQL, Jupyter Notebook, Python, Pandas, SQL Server.
-## Extract
-Loaded 2 csv files from the Resources folder using pd.read_csv.
+## Extract the data
+Loaded two csv files from the Resources folder using pd.read_csv.
 ## Transform
 Removed unnecessary columns and renamed Count column on each dataframe, Count_o3 and Count_pm25. I then merged these two df's using a left merge on the Date, Country, and City columns in each, resulting in one df with the counts of o3 and pm25 for each day in each city.
 ## Load
